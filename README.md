@@ -23,6 +23,7 @@ Private keys should be at least 128 bits in length and generated securely
 
 They can either be passed offline or by wrapping with RSA keys
 
+Public keys can be linked to an individual application or to a version
 
 # Scripts
 flask --app server run
