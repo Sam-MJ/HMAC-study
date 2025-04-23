@@ -1,0 +1,7 @@
+PRIVATE_KEY = b"\x19\x0b\x19\x05\x0b,\xd1\xde\x9c\x1bu@\\\x8f(/"
+EXPIRED_PRIVATE_KEY = b"~eO\xd4\x90\\\xac\xe7\x8c=T\x9aq\xd9?\xb5"
+
+CLIENT_1_PUBLIC_KEY = b"\xf4\xde\x12\xb80\xf6\xff.{eM\xd5\xed\\\xb2\x9f"
+CLIENT_2_PUBLIC_KEY = b"%\x1f\x08\x8d!\x12\x0c8\xaa\x81\xbe\xe3;xE\xb5"
+
+db = {CLIENT_1_PUBLIC_KEY: PRIVATE_KEY, CLIENT_2_PUBLIC_KEY: EXPIRED_PRIVATE_KEY}
